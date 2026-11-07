@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>serving web content</title>
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'"></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus diam. Sed mollis sem in vestibulum elementum. Nullam blandit odio eget pulvinar porta. Nulla convallis odio eget ultrices sagittis. Curabitur venenatis convallis leo, a cursus velit ornare ornare. Duis sed massa ut leo rutrum fermentum id eleifend metus. Nunc venenatis turpis in interdum finibus. Pellentesque at ipsum aliquam tellus tincidunt gravida vitae eget justo. Suspendisse aliquam fringilla nunc sit amet fermentum. Morbi sagittis bibendum metus ut aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Ut ut eros eu neque ultrices ultrices non in metus. Proin rhoncus posuere porta. Donec sem ipsum, molestie a congue a, viverra at ex. Mauris et augue arcu. Etiam viverra turpis augue, posuere lacinia lacus pretium ac. Nam dictum tempor mi, sed sollicitudin nunc. Quisque quam nisl, sollicitudin at ligula et, volutpat hendrerit velit. Nunc porttitor congue augue. Aliquam condimentum, est ac finibus dignissim, leo sapien ornare justo, cursus dapibus nisl dolor aliquam arcu. Proin placerat eleifend imperdiet. Vivamus suscipit, dolor consequat sagittis tempor, ipsum diam accumsan orci, vitae feugiat lectus augue sit amet ex. Duis ac turpis at dui tincidunt congue. Quisque et est mollis, mollis est vel, lacinia est. Etiam sit amet enim suscipit, luctus enim sed, mollis nibh.
+</p>
+<img th:src="@{/images/cat.webp}" width="600" height="600" alt="cat picture"/>
+</body>
+</html>
